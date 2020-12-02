@@ -10,12 +10,18 @@ def trollsort(ints):
 
     if algSelection == 0:
         print('Using bubble sort')
-        bubble-sort(ints)
+        bubble_sort(ints)
     if algSelection == 1:
         print('Using merge sort')
-        merge-sort(ints)
+        merge_sort(ints)
 
     '''
+
+def bubble_sort(ints):
+    print('Using bubble sort')
+
+def merge_sort(ints):
+    print('Using merge sort')
 
 ints = [1, 2]
 
