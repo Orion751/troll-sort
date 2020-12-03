@@ -1,6 +1,6 @@
 import random
 
-def trollsort(ints):
+def troll_sort(ints):
     # Randomly select a sorting algorithm
     algSelection = random.randint(0, 1)
 
@@ -33,7 +33,7 @@ def merge_sort(ints):
 ints = [1, 2]
 ints = [64, 34, 25, 12, 22, 11, 90]
 
-trollsort(ints)
+troll_sort(ints)
 
 for elem in ints:
     print(elem)
