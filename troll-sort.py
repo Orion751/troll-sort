@@ -7,7 +7,7 @@ def troll_sort(ints):
     if algSelection == 0:
         print('Using bubble sort')
         bubble_sort(ints)
-    if algSelection == 1:
+    elif algSelection == 1:
         print('Using merge sort')
         merge_sort(ints)
     else:
