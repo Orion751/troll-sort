@@ -35,5 +35,4 @@ ints = [64, 34, 25, 12, 22, 11, 90]
 
 troll_sort(ints)
 
-for elem in ints:
-    print(elem)
+print(ints)
