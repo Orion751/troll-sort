@@ -12,7 +12,7 @@ def troll_sort(ints):
         merge_sort(ints)
     else:
         while True:
-            print("You've just been trolled!  Okay, I'll be nice: press ctrl+c to stop.")
+            print("You've just been trolled!  Okay, I'll be nice: press CTRL+C to stop.")
 
 def bubble_sort(ints):
     # print('Using bubble sort')
