@@ -75,11 +75,14 @@ def merge_sort(ints):
             j += 1
             k += 1
 
-#ints = [1, 2]
-#ints = [64, 34, 25, 12, 22, 11, 90]
+def main():
+    #ints = [1, 2]
+    #ints = [64, 34, 25, 12, 22, 11, 90]
 
-ints = [12, 11, 13, 5, 6, 7]
+    ints = [12, 11, 13, 5, 6, 7]
 
-troll_sort(ints)
+    troll_sort(ints)
 
-print(ints)
+    print(ints)
+
+main()
