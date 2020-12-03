@@ -1,0 +1,5 @@
+Name of Project: troll-sort
+Group Members: @Orion751#9771
+Brief Project Description (1-2 sentences): A Python function that sorts an array of integers using a randomly-selected sorting algorithm
+Link to Project: https://github.com/Orion751/troll-sort
+Categories Entering: Awful Sort, Secret Tunnel
