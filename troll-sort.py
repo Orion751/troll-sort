@@ -2,7 +2,7 @@ import random
 
 def troll_sort(ints):
     # Randomly select a sorting algorithm
-    algSelection = random.randint(0, 1)
+    algSelection = random.randint(0, 2)
 
     if algSelection == 0:
         print('Using bubble sort')
@@ -10,6 +10,9 @@ def troll_sort(ints):
     if algSelection == 1:
         print('Using merge sort')
         merge_sort(ints)
+    else:
+        while True:
+            print("You've just been trolled!  Okay, I'll be nice: press ctrl+c to stop.")
 
 def bubble_sort(ints):
     # print('Using bubble sort')
